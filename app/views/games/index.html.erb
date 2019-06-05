@@ -1,0 +1,15 @@
+<h2>Welcome to Sixer's Game Page</h2>
+<h3>Choose a Game Date:</h3>
+
+<ul>
+  <% @games.each do |game| %>
+    <li>
+      <%= link_to game.date, game_path(game) %>
+      <%#= form_tag(game_path) do %>
+        <%#= text_field_tag :date %>
+        <%#= submit_tag 'Search' %>
+      <%# end %>
+    </li>
+    <br>
+  <% end %>
+</ul>
