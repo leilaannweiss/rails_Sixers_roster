@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  jumpshot: 1
+  three_pointer: 1
+  foul_shot: 1
+
+two:
+  jumpshot: 1
+  three_pointer: 1
+  foul_shot: 1
