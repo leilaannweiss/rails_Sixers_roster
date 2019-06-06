@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :games, only: [:index,:show, :new] do
+  resources :games, only: [:index,:show, :new, :create] do
     resources :baskets, only: [:new, :create]
   end
   resources :players, only: [:index, :show, :new]

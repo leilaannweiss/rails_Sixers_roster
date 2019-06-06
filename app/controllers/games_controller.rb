@@ -13,6 +13,7 @@ class GamesController < ApplicationController
 
   def create
     @game = Game.create(game_params)
+    @game.save
     redirect_to @game
   end
 

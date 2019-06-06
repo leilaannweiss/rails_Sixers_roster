@@ -4,6 +4,8 @@
 <ul>
   <% @games.each do |game| %>
     <li>
+     <td><%= game.date %></td>
+    <td><%= game.venue_id %></td>
       <%= link_to @game.date, games_path(@game) %>
     </li>
     <br>

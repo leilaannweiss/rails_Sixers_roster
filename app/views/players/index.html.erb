@@ -1,9 +1,9 @@
 <h1>Sixer Player's Roster</h1>
 <h2>Choose a Player to See Their Stats:</h2>
 
-  <% @players.each do |game| %>
+  <% @players.each do |player| %>
     <li>
-      <%= link_to @players.name, players_path(@player) %>
+      <%= link_to player.name, player_path(player) %>
 
     <br>
   <% end %>
