@@ -5,10 +5,6 @@
   <% @games.each do |game| %>
     <li>
       <%= link_to game.date, game_path(game) %>
-      <%#= form_tag(game_path) do %>
-        <%#= text_field_tag :date %>
-        <%#= submit_tag 'Search' %>
-      <%# end %>
     </li>
     <br>
   <% end %>
