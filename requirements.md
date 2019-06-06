@@ -15,6 +15,7 @@ Requirements:
 
 - [ ] The "through" part of the has_many through includes at least one user submittable attribute (e.g. ingredient#quantity)
   (categories- baskets)
+
 - [ ] Includes reasonable validations for simple model objects
 - [ ] Includes a class level ActiveRecord scope method
 - [ ] Includes signup (e.g. Devise)

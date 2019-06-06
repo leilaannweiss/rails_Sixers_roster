@@ -2,11 +2,8 @@
 <h2>Choose a Player to See Their Stats:</h2>
 
   <% @players.each do |game| %>
-
-      <%= link_to player do %>
-      <%= player.name %>
-      <% end %>
-  Number: <%= player.number %>
+    <li>
+      <%= link_to @players.name, players_path(@player) %>
 
     <br>
   <% end %>
